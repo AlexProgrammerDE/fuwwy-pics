@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://post.pistonmaster.net
+Host: https://fuwwy.pics
 
 # Sitemaps
-Sitemap: https://post.pistonmaster.net/sitemap.xml
+Sitemap: https://fuwwy.pics/sitemap.xml
