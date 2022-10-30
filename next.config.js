@@ -18,7 +18,7 @@ const nextConfig = {
     return [
       {
         source: "/backend/:path*",
-        destination: `${process.env.API_ENDPOINT}/backend/:path*`
+        destination: `${process.env.API_ENDPOINT}/:path*`
       }
     ];
   }
