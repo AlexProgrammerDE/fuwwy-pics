@@ -13,7 +13,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@next/bundle-analyzer": "13.0.5",
+    "@next/bundle-analyzer": "13.0.6",
     "@next/font": "^13.0.0",
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "10.4.13",
@@ -21,7 +21,7 @@
     "classnames": "^2.3.2",
     "daisyui": "2.42.1",
     "javascript-time-ago": "^2.5.7",
-    "next": "13.0.5",
+    "next": "13.0.6",
     "next-sitemap": "3.1.32",
     "postcss": "8.4.19",
     "react": "18.2.0",
@@ -37,7 +37,7 @@
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "eslint": "8.28.0",
-    "eslint-config-next": "13.0.5",
+    "eslint-config-next": "13.0.6",
     "prettier": "2.8.0",
     "prettier-plugin-tailwindcss": "0.2.0",
     "typescript": "4.9.3"
