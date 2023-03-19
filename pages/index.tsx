@@ -24,7 +24,9 @@ const Home: NextPage = () => {
           <GlobalHead/>
           <Layout>
             <div className="container flex flex-grow flex-col p-1 md:p-6">
-              <h1 className="mx-2 text-2xl font-bold">Furry posts...</h1>
+              <h1 className="mx-2 text-2xl font-bold">Furry posts... ({filteredData.map(post => post.images ? post.images.length : 0).reduce((accumulator, current) => {
+                return accumulator + current;
+              }, 0)} images)</h1>
               <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className="my-masonry-grid h-full w-full"
