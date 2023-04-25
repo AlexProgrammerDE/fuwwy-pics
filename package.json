@@ -19,7 +19,7 @@
     "autoprefixer": "10.4.14",
     "bson-objectid": "2.0.4",
     "classnames": "^2.3.2",
-    "daisyui": "2.51.5",
+    "daisyui": "2.51.6",
     "javascript-time-ago": "^2.5.7",
     "next": "13.2.3",
     "next-sitemap": "3.1.55",
