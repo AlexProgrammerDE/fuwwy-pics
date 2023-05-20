@@ -135,9 +135,9 @@
     glob "7.1.7"
 
 "@next/font@^13.0.0":
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.4.1.tgz#bbb279d017efc631e804b7a4fc66eb77e86b9b8e"
-  integrity sha512-GIgdVNXhWgGq92NUSGVd4n2yiF1k0i6U3dt/Pa9SFJvOEJyAJ99khXVq6cYJYJS8jhbL0yjE8+th8h+KjIGzuA==
+  version "13.4.3"
+  resolved "https://registry.yarnpkg.com/@next/font/-/font-13.4.3.tgz#e7cb065f4daceaa64fd2f90cb7065b8421d48aee"
+  integrity sha512-plrCwj4s9fjjcMdkAo+MAVkKuSemRz6XLcow6RdkesEfNyfSD8eMU9+rR3khrXnCZ9zjsf9mcPG5ubvqDXU0mg==
 
 "@next/swc-android-arm-eabi@13.2.3":
   version "13.2.3"
