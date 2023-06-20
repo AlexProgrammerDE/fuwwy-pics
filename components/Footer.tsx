@@ -2,6 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "public/logo.webp";
 
+/**
+ * Footer component that renders the footer section of the application.
+ * 
+ * This component displays the footer section with a background color of "bg-neutral" and
+ * a text color of "text-neutral-content". It includes the following elements:
+ * - A container div with the class "container" to hold the footer content.
+ * - A flex container div with the class "flex" to wrap the logo and copyright text.
+ *   - The logo is rendered using the `next/image` component with the specified dimensions.
+ *   - The copyright text is displayed within a `<p>` element.
+ * - A grid container div with the class "grid-flow-col" to position the social media icons.
+ *   - The icons are represented by `<a>` elements with SVG content from external links.
+ *   - The icons link to the Twitter and GitHub profiles.
+ */
+
+
 export default function Footer() {
   return (
     <footer className="footer mt-4 bg-neutral p-4 text-neutral-content">

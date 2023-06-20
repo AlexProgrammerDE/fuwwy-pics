@@ -1,6 +1,17 @@
 import Layout from "./Layout";
 import { GlobalHead } from "./GlobalHead";
 
+
+/**
+ * LoadingView component that represents a loading state view in the application.
+ * 
+ * This component displays a loading animation with a spinning circle while the content is being loaded.
+ * It includes a global head section (GlobalHead) and utilizes the Layout component to maintain the overall
+ * application layout structure. The loading animation is centered on the screen using flexbox utilities.
+ * 
+ * Note: Ensure that the required components, such as GlobalHead and Layout, are properly imported.
+ * The loading animation SVG and associated styles are provided within the component.
+ */
 export default function LoadingView() {
   return (
     <>

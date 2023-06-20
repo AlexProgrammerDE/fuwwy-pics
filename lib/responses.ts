@@ -1,8 +1,9 @@
 import { PostType } from "./types";
 
-/**EXPORTING INTERFACES */
-
-/*DESCRIBE STRUCTURE OF POSTRESPONSE OBJECT */
+/**
+ * Interfaces for defining data structures in the application.
+ * These interfaces describe the shape and types of various objects used within the system.
+ */
 export interface PostResponse {
   postId: string;
   title: string;

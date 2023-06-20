@@ -2,6 +2,18 @@ import Logo from "public/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
+
+/**
+ * NavBar component that represents the navigation bar of the application.
+ * 
+ * This component displays the navigation bar at the top of the screen. It includes a logo, the application name,
+ * and a menu toggle button for small screens. The navigation bar is styled using the "navbar" class from the
+ * Tailwind CSS framework.
+ * 
+ * The logo is rendered using the "next/image" component, allowing for optimized image handling. The logo image is
+ * imported from the "public" directory. The application name is displayed alongside the logo using the "next/link"
+ * component for navigation to the home page ("/").
+ */
 export default function NavBar() {
   return (
     <div className="navbar w-full bg-base-300">
