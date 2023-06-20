@@ -1,5 +1,8 @@
 import { PostType } from "./types";
 
+/**EXPORTING INTERFACES */
+
+/*DESCRIBE STRUCTURE OF POSTRESPONSE OBJECT */
 export interface PostResponse {
   postId: string;
   title: string;
